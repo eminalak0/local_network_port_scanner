@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Local Network Scanner</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Network Port Scanner Dashboard</h1>
+<input type="text" id="ip" placeholder="Enter IP to scan">
+<button onclick="scan()">Scan</button>
+<div id="results"></div>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
